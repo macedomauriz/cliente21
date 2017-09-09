@@ -1,0 +1,79 @@
+body {
+  font-family: 'Cutive Mono', monospace;
+  margin: 0;
+}
+
+#super-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0;
+}
+
+#title1 {
+  text-align: center;
+  width: 100%;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+mask-div {
+  width: 100vw;
+}
+
+#mask {
+  height: 65vh;
+  padding-bottom: 1vh;
+}
+
+#cont2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  border: 1px solid #E5E5E5;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#answer {
+  height: 8px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#text {
+  font-family: inherit;
+  overflow: hidden;
+  border: 0;
+  resize: none;
+  outline: 0;
+  font-size: 19px;
+}
+
+textarea::placeholder {
+  color: #E5E5E5;
+}
+
+@media only screen and (max-width: 500px) {
+    #cont2 {
+      width: 50%;
+    }
+    #mask {
+      height: 55vh;
+    }
+/*
+    #text {
+      font-size: 19px;
+    }
+    textarea::placeholder {
+      font-size: 10px;
+    }
+}*/
